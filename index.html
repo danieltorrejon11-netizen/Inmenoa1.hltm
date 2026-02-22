@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmenoa S.A.S - Ingeniería y Consultoría</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:Arial,sans-serif;line-height:1.6;color:#333;background:#f5f7fa}
+        header{background:linear-gradient(135deg,#2c3e50,#3498db);color:white;padding:2rem;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,0.1)}
+        .logo{font-size:2.8rem;font-weight:bold;margin-bottom:1rem}
+        .logo span{color:#e74c3c}
+        nav{background:#2c3e50;padding:1rem 0}
+        nav ul{display:flex;justify-content:center;list-style:none;gap:2rem}
+        nav a{color:white;text-decoration:none;font-weight:500;padding:0.5rem 1rem;border-radius:5px}
+        nav a:hover{background:#3498db}
+        section{padding:4rem 2rem;max-width:1200px;margin:0 auto}
+        h2{text-align:center;font-size:2.5rem;color:#2c3e50;margin-bottom:3rem;position:relative}
+        h2:after{content:'';position:absolute;bottom:-15px;left:50%;transform:translateX(-50%);width:80px;height:4px;background:#3498db;border-radius:2px}
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem}
+        .card{background:white;border-radius:15px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.1)}
+        .card-img{height:200px;background:#3498db;display:flex;align-items:center;justify-content:center;color:white;font-size:4rem}
+        .card-content{padding:2rem}
+        .card h3{color:#2c3e50;margin-bottom:1rem;font-size:1.8rem}
+        .contact-box{background:white;padding:3rem;border-radius:20px;box-shadow:0 15px 40px rgba(0,0,0,0.2);text-align:center;margin:2rem 0}
+        .btn{display:inline-block;background:#25D366;color:white;text-decoration:none;padding:1rem 2.5rem;border-radius:50px;font-weight:bold;margin:0.8rem;font-size:1.1rem;transition:all 0.3s}
+        .btn:hover{transform:scale(1.05);box-shadow:0 5px 15px rgba(37,211,102,0.4)}
+        .btn-email{background:#3498db}
+        .btn-email:hover{background:#2980b9;box-shadow:0 5px 15px rgba(52,152,219,0.4)}
+        footer{background:#2c3e50;color:white;text-align:center;padding:2rem;margin-top:3rem}
+        @media (max-width:768px){nav ul{flex-direction:column;gap:0.8rem}.grid{grid-template-columns:1fr}}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">INMENOA <span>S.A.S</span></div>
+        <p>Soluciones integrales en ingeniería y construcción</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#valor">Propuesta de Valor</a></li>
+            <li><a href="#servicios">Ingeniería Consultoría</a></li>
+            <li><a href="#contacto">Contáctenos</a></li>
+        </ul>
+    </nav>
+
+    <section id="quienes-somos">
+        <h2>🏗️ Quiénes Somos</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-img">🏢</div>
+                <div class="card-content">
+                    <h3>Nuestra Historia</h3>
+                    <p>Inmenoa S.A.S es una empresa argentina dedicada a la ingeniería y consultoría con más de 15 años de experiencia en el sector constructor. Nos especializamos en proyectos de infraestructura, edificaciones y obras civiles.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">🎯</div>
+                <div class="card-content">
+                    <h3>Nuestra Misión</h3>
+                    <p>Ofrecer soluciones innovadoras y sostenibles que superen las expectativas de nuestros clientes, garantizando calidad, seguridad y puntualidad en cada proyecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="valor" style="background:#ecf0f1">
+        <h2>💎 Propuesta de Valor</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-content" style="text-align:center;padding:3rem">
+                    <h3 style="color:#3498db;font-size:2rem">✅ Calidad Garantizada</h3>
+                    <p>Estándares internacionales en cada proyecto</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content" style="text-align:center;padding:3rem">
+                    <h3 style="color:#e74c3c;font-size:2rem">🚀 Innovación</h3>
+                    <p>Tecnología de vanguardia en construcción</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content" style="text-align:center;padding:3rem">
+                    <h3 style="color:#2ecc71;font-size:2rem">🌱 Sostenibilidad</h3>
+                    <p>Proyectos respetuosos con el medio ambiente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>📐 Ingeniería y Consultoría</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-img" style="background:#e74c3c">🏗️</div>
+                <div class="card-content">
+                    <h3>Diseño Estructural</h3>
+                    <p>Análisis y diseño de estructuras en concreto, acero y mampostería con software especializado.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background:#3498db">🛣️</div>
+                <div class="card-content">
+                    <h3>Infraestructura Vial</h3>
+                    <p>Carreteras, puentes, túneles y sistemas de drenaje con ingeniería de vanguardia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background:#2ecc71">💧</div>
+                <div class="card-content">
+                    <h3>Sistemas Hidráulicos</h3>
+                    <p>Acueductos, alcantarillados y sistemas de riego con tecnología moderna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" style="background:linear-gradient(135deg,#2c3e50,#1a252f);color:white">
+        <h2>📞 Contáctenos</h2>
+        <div class="contact-box">
+            <h3 style="color:#3498db;margin-bottom:1.5rem;font-size:2rem">¡Hablemos!</h3>
+            <p style="font-size:1.3rem;margin:1.2rem 0"><strong>📱 WhatsApp:</strong> <a href="https://wa.me/5493875601974" style="color:#25D366;text-decoration:underline;font-weight:bold;display:block;margin:10px 0">+54 9 3875 60-1974</a></p>
+            <p style="font-size:1.3rem;margin:1.2rem 0"><strong>📧 Email:</strong> <a href="mailto:ventasinmenoa@gmail.com" style="color:#3498db;text-decoration:underline;font-weight:bold;display:block;margin:10px 0">ventasinmenoa@gmail.com</a></p>
+            <p style="font-size:1.2rem;margin:1.2rem 0"><strong>📍 Ubicación:</strong> Argentina</p>
+            <div style="margin-top:2rem">
+                <a href="https://wa.me/5493875601974" target="_blank" class="btn">💬 WhatsApp</a>
+                <a href="mailto:ventasinmenoa@gmail.com" class="btn btn-email">✉️ Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo" style="font-size:2rem;margin-bottom:1rem">INMENOA <span>S.A.S</span></div>
+        <p>© 2026 Inmenoa S.A.S - Todos los derechos reservados</p>
+        <p style="margin-top:1rem">
+            📱 <a href="https://wa.me/5493875601974" target="_blank" style="color:#25D366;text-decoration:underline">+54 9 3875 60-1974</a> | 
+            ✉️ <a href="mailto:ventasinmenoa@gmail.com" style="color:#3498db;text-decoration:underline">ventasinmenoa@gmail.com</a>
+        </p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'})}));
+    </script>
+</body>
+</html>
